@@ -1,0 +1,14 @@
+<app-template-header></app-template-header>
+<div class="list-view">
+    <h4 (click)= "todoShow =! todoShow">Offen <span>( {{todos.length}})</span></h4> 
+    <div *ngIf="todoShow" class = "todo-elements">   
+            <app-template-todo (ping)="update($event)" [Todo]="Todo" *ngFor = "let Todo of todos" ></app-template-todo>
+    </div>
+
+    <app-template-todo-form (ping)="create($event)" *ngIf = "todoShow"></app-template-todo-form>
+
+    <h4 (click) = " doneShow =! doneShow"> Erledigt <span>( {{todosdone.length}})</span></h4>
+    <div *ngIf = "doneShow" class = "todo-elements"> 
+        <app-template-todo (ping)="update($event)" [Todo]="Todo" *ngFor = "let Todo of todosdone" ></app-template-todo>
+        </div>
+</div>
