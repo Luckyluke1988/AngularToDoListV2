@@ -2,93 +2,79 @@
 
 This is a Webbased Todo list, the following components where used: 
 ```
-	Angular 
-	TypeScript
-	Html
-	SASS
+	Front-End Framework = Angular 8
+	Controller Language = TypeScript
+	Web interface = Html
+	Style = SASS
+	server db = json Server
 ```
 
 ## Getting Started
-
+Install Visual Studio Code:
+```
+	1. https://code.visualstudio.com/
+```
 Install Angular:
 ```
 	1. Install Node Package Manager npm
 	2. npm install -g angular-cli
 ```
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+Install Json Server:
 ```
-Give examples
+	1. npm install -g ajson-server
 ```
 
-### Installing
+### How to get the Dev env Running
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+Create env:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+	1. Open Visual studio
+	2. Open Repository Folder
+	3. Open Terminal in Visual Studio
+	4. run Command: ng server
+	5. open Local Host adress shown in the Log
+	5. run Command: json-server -p 4000 db.json
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Coming soon !!!!
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Coming soon !!!!
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Coming soon !!!!
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Coming soon !!!!
 
 ## Built With
-
+Coming soon !!!!
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Coming soon !!!!
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Coming soon !!!!
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+inspired by: Unleashed Design
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Coming soon !!!!
 
 ## Acknowledgments
 
