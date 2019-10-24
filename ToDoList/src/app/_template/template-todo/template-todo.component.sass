@@ -48,7 +48,7 @@
                 font-size: $cube*2
                 padding: $cube*2
                 color: $second
-                width: 100%
+                width: 80%
                 border: none
                 word-break: break-word
             input::placeholder
@@ -57,6 +57,8 @@
             input:focus
                 outline: none
     .delete
+        display: flex
+        flex-flow: row
         background-color: $red
         color: $white
         font-family: $font2
@@ -79,5 +81,6 @@
             display: none
         .todo-content-titel
             input
-                opacity: 0.3
+                opacity: 0.9
                 text-decoration: line-through
+                color: $green
