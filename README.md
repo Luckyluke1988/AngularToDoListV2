@@ -1,17 +1,20 @@
 # AngularToDoListV2
 
-This is a Todo list, the following components where used: 
+This is a Webbased Todo list, the following components where used: 
+```
 	Angular 
 	TypeScript
 	Html
 	SASS
+```
 
 ## Getting Started
 
 Install Angular:
+```
 	1. Install Node Package Manager npm
 	2. npm install -g angular-cli
-	
+```
 
 ### Prerequisites
 
